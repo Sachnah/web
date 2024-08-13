@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0px;
+  font-size: 16px;
+  text-align: left;
+  padding: 20px 20px;
+}
+
+table th, table td {
+  padding: 10px ;
+  border: 1px solid #aba9a9;
+}
+
+table th {
+  background-color: #f4f4f4;
+  text-align:left;
+}
+
+table td[colspan="2"] {
+  text-align:left;
+}
+
+table td[colspan="3"] {
+  text-align: left;
+  
+}
+
+table td[colspan="3"] strong {
+  display: inline-block;
+  margin-right: 20px;
+}
+h2{
+  text-align: center;
+}

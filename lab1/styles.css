@@ -1,0 +1,19 @@
+body, html {
+  height: 100%;
+  margin: 1;
+  font-family: Arial, sans-serif;
+}
+
+.background-image {
+  background-image: url('n-img.jpg');
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.background-image h1, .background-image p {
+  position: relative;
+  color: rgb(250, 246, 246);
+  text-align: center;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Booking Form</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="radio-group">
+            <div class="group-label">Which taxi do you require?</div>
+            <div class="abcd">
+            <label><input type="radio" name="taxi" value="car" required> Car</label>
+            <label><input type="radio" name="taxi" value="van"> Van</label>
+            <label><input type="radio" name="taxi" value="tuktuk"> Tuk Tuk</label>
+        </div>
+        </div>
+
+        <div class="checkbox-group">
+            <div class="group-label">Extras</div>
+            <div class="abcd">
+            <label><input type="checkbox" name="extras" value="baby-seat"> Baby Seat</label>
+            <label><input type="checkbox" name="extras" value="wheelchair-access"> Wheelchair Access</label>
+            <label><input type="checkbox" name="extras" value="stock-tip"> Stock Tip</label>
+        </div>
+        </div>
+
+        <div class="form-group">
+            <label for="pickup-datetime">Pickup Date/Time</label>
+            <input type="datetime-local" id="pickup-datetime" name="pickup-datetime" required>
+        </div>
+
+        <div class="form-group">
+            <label for="pickup-place">Pickup Place</label>
+            <select id="pickup-place" name="pickup-place" required>
+                <option value=" disabled selected">Select One</option>
+                <option value="place1">Jhamsikhel</option>
+                <option value="place2">Sunakothi</option>
+                <option value="place3">Bhaktapur</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="dropoff-place">Dropoff Place</label>
+            <input type="text" id="dropoff-place" name="dropoff-place" required>
+        </div>
+
+        <div class="form-group">
+            <label for="special-instructions">Special Instructions</label>
+            <textarea id="special-instructions" name="special-instructions" rows="4" cols="50"></textarea>
+        </div>
+
+        <button type="submit">Submit Booking</button>
+    </form>
+</body>
+</html>
