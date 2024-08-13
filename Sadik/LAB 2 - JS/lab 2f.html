@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Array</title>
+</head>
+<body>
+    <script>
+        var JSON_string = '[{"fname": "Sadik", "lname": "Karki"},{"fname": "Sadikshya","lname": "Karki"}]';
+        
+        var JSON_object = JSON.parse(JSON_string);
+
+        document.write(JSON_object[0].fname + " " + JSON_object[0].lname + "<br>");
+    </script>
+</body>
+</html>

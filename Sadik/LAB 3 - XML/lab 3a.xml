@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE students SYSTEM "lab 3b.dtd">
+<students>
+    <student>
+        <name>Khali Naam</name>
+        <age>20</age>
+        <gender>male</gender>
+        <faculty>Physics</faculty>
+        <address>Godawari</address>
+    </student>
+    <student>
+        <name>Suntali Bai</name>
+        <age>21</age>
+        <gender>female</gender>
+        <faculty>management</faculty>
+        <address>Patan</address>
+    </student>
+    <student>
+        <name>Lez Gopaty</name>
+        <age>22</age>w
+        <gender>female</gender>
+        <faculty>computer</faculty>
+        <address>Ghar</address>
+    </student>
+    <student>
+        <name>Johnis Eins</name>
+        <age>21</age>
+        <gender>male</gender>
+        <faculty>Physics</faculty>
+        <address>House</address>
+    </student>
+    <student>
+        <name>Maya Lai</name>
+        <age>20</age>
+        <gender>female</gender>
+        <faculty>Biology</faculty>
+        <address>Gau</address>
+    </student>
+</students>

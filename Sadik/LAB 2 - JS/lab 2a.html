@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Time</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <button onclick="showdatetime()">SHOW DATE/TIME</button>
+
+    <script>
+        function showdatetime(){
+            var obj = new Date();
+            var date = obj.getDate() + "/" + (obj.getMonth() + 1) + "/" + obj.getFullYear();
+            var time = obj.getHours() + ":" + obj.getMinutes() + ":" + obj.getSeconds();
+            var str = "Date: " + date + "<br>Time: " + time;
+            
+            document.getElementById("demo").innerHTML = str;
+        }        
+    </script>
+</body>
+</html>

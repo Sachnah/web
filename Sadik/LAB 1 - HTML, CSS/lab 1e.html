@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="lab1e.css">
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Which taxi do you require?</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="no-bold">
+                    <input type="radio" name="taxi" value="car">Car<br>
+                    <input type="radio" name="taxi" value="van">Van<br>
+                    <input type="radio" name="taxi" value="tuk-tuk">Tuk-tuk
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Extras</td>
+            </tr>
+            <tr>
+                <td ></td>
+                <td class="no-bold">
+                    <input type="checkbox" name="extras" value="baby-seal">Baby seal<br>
+                    <input type="checkbox" name="extras" value="wheel-chair">Wheel chair access<br>
+                    <input type="checkbox" name="extras" value="stock-tip">Stock tip
+                </td>
+            </tr>
+            <tr>
+                <td>Pickup Date/Time</td>
+                <td><input type="datetime-local"></td>
+            </tr>
+            <tr>
+                <td>Pickup Place</td>
+                <td>
+                    <select name="pickup-place">
+                        <option>Select One</option>
+                        <option>Taxi office</option>
+                        <option>Town hall</option>
+                        <option>Well, Guess!</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Dropoff Place</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">Special instruction</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit Booking"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

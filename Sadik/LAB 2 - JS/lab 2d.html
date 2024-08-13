@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Case of String</title>
+</head>
+<body>
+    <p id="demo">Hello World!</p>
+    <button onclick="changeCase()">CLICK TO CHANGE CASE</button>
+
+    <script>
+        function changeCase(){
+            var demo = document.getElementById("demo");
+
+            var str = "Hello World!";
+            var originalStr = demo.innerText;
+
+            if(originalStr == str){
+                demo.innerText = str.toLowerCase();
+            }else{
+                demo.innerText = str;
+            }
+        }
+    </script>
+</body>
+</html>
