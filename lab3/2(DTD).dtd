@@ -1,0 +1,13 @@
+<!DOCTYPE students [
+    <!ELEMENT students (student+)>
+    <!ELEMENT student (name, age, gender, faculty, address)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT gender (#PCDATA)>
+    <!ELEMENT faculty (#PCDATA)>
+    <!ELEMENT address (street, city, state, zip)>
+    <!ELEMENT street (#PCDATA)>
+    <!ELEMENT city (#PCDATA)>
+    <!ELEMENT state (#PCDATA)>
+    <!ELEMENT zip (#PCDATA)>
+]>

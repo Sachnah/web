@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students SYSTEM "students.dtd">
+<students>
+    <student>
+        <name>John Doe</name>
+        <age>20</age>
+        <gender>Male</gender>
+        <faculty>Computer Science</faculty>
+        <address>123 Main St, Cityville</address>
+    </student>
+    <student>
+        <name>Jane Smith</name>
+        <age>22</age>
+        <gender>Female</gender>
+        <faculty>Business</faculty>
+        <address>456 Oak St, Townsville</address>
+    </student>
+    <student>
+        <name>Sam Brown</name>
+        <age>21</age>
+        <gender>Male</gender>
+        <faculty>Engineering</faculty>
+        <address>789 Pine St, Villageburg</address>
+    </student>
+    <student>
+        <name>Lisa White</name>
+        <age>19</age>
+        <gender>Female</gender>
+        <faculty>Arts</faculty>
+        <address>101 Maple St, Hamletown</address>
+    </student>
+    <student>
+        <name>Tom Green</name>
+        <age>23</age>
+        <gender>Male</gender>
+        <faculty>Mathematics</faculty>
+        <address>202 Birch St, Smallville</address>
+    </student>
+</students>
